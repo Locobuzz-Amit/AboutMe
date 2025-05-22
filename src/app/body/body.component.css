@@ -1,0 +1,16 @@
+.about-me-body {
+  background: #fff;
+  text-align: center;
+}
+
+.about-me-body h2 {
+  color: #1976d2;
+  margin-bottom: 1rem;
+}
+
+.about-me-body p {
+  color: #444;
+  font-size: 1.1rem;
+  line-height: 1.7;
+ 
+}
