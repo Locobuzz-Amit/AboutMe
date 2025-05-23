@@ -1,0 +1,11 @@
+<div class="inputbox-container">
+  <input
+    type="text"
+    class="inputbox-field"
+    placeholder="Type something..."
+    [(ngModel)]="inputValue"
+  />
+  <p class="inputbox-output">
+    {{ inputValue ? inputValue : 'Show Text' }}
+  </p>
+</div>

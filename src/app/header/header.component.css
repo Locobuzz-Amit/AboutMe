@@ -1,13 +1,66 @@
-.about-me-header {
+ .about-me-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   background-color: #1565c0;
   color: #fff;
-  padding: 1.5rem 0;
-  text-align: center;
+  padding: 1rem 1rem;
   border-radius: 8px 8px 0 0;
 }
 
-.about-me-header h1 {
-  margin: 0;
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.profile-img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  background: #eee;
+}
+
+.about-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about-text h1 {
+  margin: 0 0 0.3rem 0;
   font-size: 2rem;
   letter-spacing: 2px;
+  font-weight: 700;
+}
+
+.about-desc {
+  margin: 0;
+  font-size: 1.1rem;
+  color: #e3eaf3;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.header-btn {
+  background-color: #fff;
+  color: #1565c0;
+  border: none;
+  padding: 0.6rem 1.3rem;
+  border-radius: 20px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+.header-btn:hover {
+  background-color: #1976d2;
+  color: #fff;
+  border: 1px solid #fff;
 }

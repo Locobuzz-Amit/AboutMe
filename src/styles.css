@@ -1,1 +1,27 @@
-/* You can add global styles to this file, and also import other style files */
+/* Add this to your global styles.css or the main container CSS */
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+app-header {
+  flex-shrink: 0;
+}
+
+router-outlet {
+  flex: 1 0 auto;
+  display: block;
+}
+
+app-footer {
+  flex-shrink: 0;
+  width: 100%;
+}
